@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Delete	Line_Fitting.c	/^void Delete(Marginal* X, Marginal* Y, Line* line){$/;"	f
+Line	Line_Fitting.h	/^typedef struct Line{$/;"	s
+Line	Line_Fitting.h	/^} Line;$/;"	t	typeref:struct:Line
+Marginal	Line_Fitting.h	/^typedef struct Marginal{$/;"	s
+Marginal	Line_Fitting.h	/^}Marginal;$/;"	t	typeref:struct:Marginal
+__LEAST_SQUARE_H__	Least_Square.h	2;"	d
+__LINE_FITTING_H__	Line_Fitting.h	2;"	d
+a	Line_Fitting.h	/^	int a, b;$/;"	m	struct:Marginal
+b	Line_Fitting.h	/^	int a, b;$/;"	m	struct:Marginal
+correlation	Line_Fitting.h	/^	double correlation;$/;"	m	struct:Line
+estimate	Line_Fitting.h	/^	double estimate;$/;"	m	struct:Line
+event	Line_Fitting.h	/^	int* event;$/;"	m	struct:Marginal
+eventLength	Line_Fitting.h	/^	int eventLength;$/;"	m	struct:Line
+eventLength	Line_Fitting.h	/^	int eventLength;$/;"	m	struct:Marginal
+fittingIntercept	Line_Fitting.h	/^	double fittingIntercept;$/;"	m	struct:Line
+fittingSlope	Line_Fitting.h	/^	double fittingSlope;$/;"	m	struct:Line
+fittingY	Line_Fitting.h	/^	double* fittingY;$/;"	m	struct:Line
+leastSquare	Least_Square.c	/^int leastSquare(int n, int x[], int y[], double* m, double* b, double* r){$/;"	f
+main	Main.c	/^int main(){$/;"	f
+makeEstimate	Line_Fitting.c	/^double makeEstimate(Line* line) {$/;"	f
+makeFittingY	Line_Fitting.c	/^double* makeFittingY(Line* line) {$/;"	f
+makeLine	Line_Fitting.c	/^Line* makeLine(Marginal* X, Marginal* Y){$/;"	f
+makeX	Line_Fitting.c	/^Marginal* makeX(double mean, double stddev, int eventNum){$/;"	f
+makeY	Line_Fitting.c	/^Marginal* makeY(Marginal* X, double mean, double stddev, int eventNum, int a, int b){$/;"	f
+normalDist	Line_Fitting.c	/^double normalDist(double mean, double stdev){$/;"	f
+normalMean	Line_Fitting.h	/^	int normalMean;$/;"	m	struct:Marginal
+normalStddev	Line_Fitting.h	/^	int normalStddev;$/;"	m	struct:Marginal
+originalIntercept	Line_Fitting.h	/^	double originalIntercept;$/;"	m	struct:Line
+originalSlope	Line_Fitting.h	/^	double originalSlope;$/;"	m	struct:Line
+originalVariance	Line_Fitting.h	/^	double originalVariance;$/;"	m	struct:Line
+originalX	Line_Fitting.h	/^	int* originalX;$/;"	m	struct:Line
+originalY	Line_Fitting.h	/^	int* originalY;$/;"	m	struct:Line
+printFile	Line_Fitting.c	/^void printFile(Line* line){$/;"	f
+sqr	Least_Square.c	/^inline static double sqr(double x) {$/;"	f	file:
+xEvent	Line_Fitting.c	/^int* xEvent(Marginal* X){$/;"	f
+yEvent	Line_Fitting.c	/^int* yEvent(Marginal* X, Marginal* Y){$/;"	f

@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Delete	Joint_Prob.c	/^void Delete(Marginal* X, Marginal* Y, Joint* joint){$/;"	f
+Joint	Joint_Prob.h	/^typedef struct Joint{$/;"	s
+Joint	Joint_Prob.h	/^}Joint;$/;"	t	typeref:struct:Joint
+Marginal	Joint_Prob.h	/^typedef struct Marginal{$/;"	s
+Marginal	Joint_Prob.h	/^}Marginal;$/;"	t	typeref:struct:Marginal
+__JOINT_PROB_H__	Joint_Prob.h	2;"	d
+a	Joint_Prob.h	/^	int a, b;$/;"	m	struct:Marginal
+b	Joint_Prob.h	/^	int a, b;$/;"	m	struct:Marginal
+correlation	Joint_Prob.h	/^	double correlation;$/;"	m	struct:Joint
+event	Joint_Prob.h	/^	int* event;$/;"	m	struct:Marginal
+event	Joint_Prob.h	/^	int** event;$/;"	m	struct:Joint
+eventLength	Joint_Prob.h	/^	int eventLength;$/;"	m	struct:Joint
+eventLength	Joint_Prob.h	/^	int eventLength;$/;"	m	struct:Marginal
+firstLength	Joint_Prob.h	/^	int firstLength;$/;"	m	struct:Joint
+firstMean	Joint_Prob.h	/^	double firstMean;$/;"	m	struct:Joint
+firstMin	Joint_Prob.h	/^	int firstMin;$/;"	m	struct:Joint
+jointEvent	Joint_Prob.c	/^int** jointEvent(Marginal* X, Marginal* Y){$/;"	f
+main	Main.c	/^int main(){$/;"	f
+makeCorrelation	Joint_Prob.c	/^double makeCorrelation(Marginal* X, Marginal* Y, Joint* joint){$/;"	f
+makeJoint	Joint_Prob.c	/^Joint* makeJoint(Marginal* X, Marginal* Y){$/;"	f
+makeJointProb	Joint_Prob.c	/^double** makeJointProb(Joint* joint){$/;"	f
+makeJointSample	Joint_Prob.c	/^int** makeJointSample(Joint* joint){$/;"	f
+makeJointVariance	Joint_Prob.c	/^double makeJointVariance(Joint* joint){$/;"	f
+makeMarginalProb	Joint_Prob.c	/^double* makeMarginalProb(Marginal* marginal){$/;"	f
+makeMarginalSample	Joint_Prob.c	/^int* makeMarginalSample(Marginal* marginal){$/;"	f
+makeMarginalVariance	Joint_Prob.c	/^double makeMarginalVariance(Marginal* marginal){$/;"	f
+makeX	Joint_Prob.c	/^Marginal* makeX(double mean, double stddev, int eventNum){$/;"	f
+makeY	Joint_Prob.c	/^Marginal* makeY(Marginal* X, double mean, double stddev, int eventNum, int a, int b){$/;"	f
+max	Joint_Prob.h	/^	int min, max;$/;"	m	struct:Marginal
+mean	Joint_Prob.h	/^	double mean;$/;"	m	struct:Joint
+mean	Joint_Prob.h	/^	double mean;$/;"	m	struct:Marginal
+min	Joint_Prob.h	/^	int min, max;$/;"	m	struct:Marginal
+normalDist	Joint_Prob.c	/^double normalDist(double mean, double stdev){$/;"	f
+normalMean	Joint_Prob.h	/^	int normalMean;$/;"	m	struct:Marginal
+normalStddev	Joint_Prob.h	/^	int normalStddev;$/;"	m	struct:Marginal
+printFile	Joint_Prob.c	/^void printFile(Marginal* X, Marginal* Y, Joint* joint){$/;"	f
+prob	Joint_Prob.h	/^	double* prob;$/;"	m	struct:Marginal
+prob	Joint_Prob.h	/^	double** prob;$/;"	m	struct:Joint
+sample	Joint_Prob.h	/^	int* sample;$/;"	m	struct:Marginal
+sample	Joint_Prob.h	/^	int** sample;$/;"	m	struct:Joint
+sampleLength	Joint_Prob.h	/^	int sampleLength;$/;"	m	struct:Marginal
+secondLength	Joint_Prob.h	/^	int secondLength;$/;"	m	struct:Joint
+secondMean	Joint_Prob.h	/^	double secondMean;$/;"	m	struct:Joint
+secondMin	Joint_Prob.h	/^	int secondMin;$/;"	m	struct:Joint
+variance	Joint_Prob.h	/^	double variance; 	$/;"	m	struct:Marginal
+variance	Joint_Prob.h	/^	double variance;$/;"	m	struct:Joint
+xEvent	Joint_Prob.c	/^int* xEvent(Marginal* X){$/;"	f
+yEvent	Joint_Prob.c	/^int* yEvent(Marginal* X, Marginal* Y){$/;"	f
